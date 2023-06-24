@@ -1,0 +1,42 @@
+BEGIN
+  // Tarea 1
+  IF numero > 0 THEN
+    PRINT "El número es positivo"
+  ELSEIF numero < 0 THEN
+    PRINT "El número es negativo"
+  ELSE
+    PRINT "El número es cero"
+  ENDIF
+  
+  // Tarea 2
+  numero = 0
+  WHILE numero < 3 DO
+    numero = numero + 1
+    PRINT "El valor de numero es: " + numero
+  END
+
+  // Tarea 3
+  numero = 0
+  DO
+    numero = numero + 1
+    PRINT "El valor de numero es: " + numero
+  WHILE numero < 3
+  
+  // Tarea 4
+  FOR numero = 0 TO 3 DO
+    PRINT "El valor de numero es: " + numero
+  END
+  
+  // Tarea 5
+  SWITCH (estacion)
+    CASE "Primavera":
+      PRINT "Es primavera"
+    CASE "Verano":
+      PRINT "Es verano"
+    CASE "Otoño":
+      PRINT "Es otoño"
+    CASE "Invierno":
+      PRINT "Es invierno"
+    DEFAULT:
+      PRINT "Valor inválido para estacion"
+END
